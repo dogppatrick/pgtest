@@ -1,10 +1,7 @@
-pg install:
-1
-https://www.postgresql.org/download/  
-2
-安裝完畢後 啟動stack builder > 勾選 postgis >>安裝(會等有點久沒反應是正常的)
-3
-啟用postgis
+#PostgreSQL install  
+1. https://www.postgresql.org/download/  
+2. 安裝完畢後 啟動stack builder > 勾選 postgis >>安裝(會等有點久沒反應是正常的)
+3. 啟用postgis
 ```
 -- Enable PostGIS (as of 3.0 contains just geometry/geography)
 CREATE EXTENSION postgis;
