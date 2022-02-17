@@ -1,0 +1,4 @@
+create table geo_test(
+id serial
+,geo_data geometry
+)
